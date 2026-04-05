@@ -16,7 +16,7 @@ export async function POST(request: NextRequest) {
         } else if (["experience", "work", "project"].some(w => lastMessage.includes(w))) {
             responseContent = "Kanishka is currently working as a Data Analyst at Tevatiya Services Private Limited, where she developed Customer Insights Dashboards and improved customer retention by 13.5%. Check out the Projects and Experience sections to see her work in action!";
         } else if (["contact", "email", "reach", "hire"].some(w => lastMessage.includes(w))) {
-            responseContent = "You can reach Kanishka at kanishkasharma399@gmail.com or call +91 7042233425. She's located in Gurugram, Haryana, India and is open to discussing new projects and opportunities!";
+            responseContent = "You can reach Kanishka at kanishkaggn@gmail.com or call +91 7042233425. She's located in Gurugram, Haryana, India and is open to discussing new projects and opportunities!";
         } else if (["education", "study", "degree", "qualification"].some(w => lastMessage.includes(w))) {
             responseContent = "Kanishka has completed a Credit Linked Program in Data Science & ML from IIT Guwahati, holds an MS in Mathematics with Computer Science, and a BS in Statistics. Strong academic foundation in quantitative and computational fields!";
         } else if (["service", "offer", "help", "what can you do"].some(w => lastMessage.includes(w))) {

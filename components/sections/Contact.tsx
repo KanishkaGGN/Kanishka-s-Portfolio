@@ -166,12 +166,12 @@ export function Contact() {
                                     <div>
                                         <p className="text-sm text-muted-foreground mb-1">Mail me at</p>
                                         <a
-                                            href="https://mail.google.com/mail/?view=cm&fs=1&to=kanishkasharma399@gmail.com"
+                                            href="https://mail.google.com/mail/?view=cm&fs=1&to=kanishkaggn@gmail.com"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="text-lg font-semibold hover:text-primary transition-colors"
                                         >
-                                            kanishkasharma399@gmail.com
+                                            kanishkaggn@gmail.com
                                         </a>
                                     </div>
                                 </div>
